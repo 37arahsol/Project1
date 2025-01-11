@@ -1,0 +1,90 @@
+body {
+    background-image: url('images/dent-blanche-7492786_1280.jpg'); /* Укажите путь к вашему изображению */
+    background-size: cover; /* Изображение покрывает весь экран */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-position: center; /* Центрирование изображения */
+    margin: 0; /* Убирает отступы по умолчанию */
+    height: 100vh; /* Высота страницы занимает весь экран */
+}
+
+
+
+
+.conteiner{
+    display: flex; /* Включаем Flexbox */
+    justify-content: center; /* Выравниваем по горизонтали */
+    align-items: center; /* Выравниваем по вертикали */
+    height: 100vh;
+    gap: 30px;
+    
+}
+
+
+
+
+        
+
+
+.box1 {
+    width: 200px;
+    height: 100px;
+    background-color: #f67103;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #49777b;
+    text-align: center;
+    box-shadow: 5px 5px 10px #A56ABD;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.box1:hover {
+    transform: scale(1.2); /* Увеличение размера */
+        
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #f67103;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #49777b;
+    text-align: center;
+    box-shadow: 5px 5px 10px #A56ABD;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+}
+.box2:hover{
+    transform: scale(1.2);
+}
+.rounded-image {
+    width: 75px;
+    height: 75px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    }
+
+.box3 {
+    width: 200px;
+    height: 100px;
+    background-color: #f67103;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #49777b;
+    text-align: center;
+    box-shadow: 5px 5px 10px #A56ABD;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.box3:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
